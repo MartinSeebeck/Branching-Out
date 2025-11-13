@@ -1,16 +1,3 @@
-'''
-- There is no `try-except` block to handle cases where `users.json` is missing, corrupted, or unreadable, which would cause the program to crash with unhandled exceptions.
-
-- Converting age input directly with `int()` will raise a `ValueError` if non-numeric input is provided; validation or exception handling is needed.
-
-- The email filter uses exact string matching (`== email`), but email comparisons are typically case-insensitive; should use `.lower()` for consistency.
-
-- Functions lack docstrings explaining purpose, parameters, and return values; type hints would improve readability and maintainability.
-
-- Functions print results but do not return the filtered list, limiting reusability in larger applications.
-
-'''
-
 
 import json
 import os
